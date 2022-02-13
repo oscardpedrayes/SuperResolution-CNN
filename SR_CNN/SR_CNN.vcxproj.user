@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-sv:"C:\Users\solid\Desktop\cnn\savePP" -learn -hr:"C:\Users\solid\Desktop\Dataset\HR_train\B" -lr:"C:\Users\solid\Desktop\Dataset\LR_train\B" -e:"C:\Users\solid\Desktop\cnn\imgExport.pgm"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-sv:"C:\Users\Usuario\Desktop\cnn\save" -test -hr:"C:\Users\Usuario\Desktop\cnn" -lr:"C:\Users\Usuario\Desktop\Dataset\LR_test\B"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-sv:"C:\Users\solid\Desktop\cnn\save" -learn -hr:"C:\Users\solid\Desktop\Dataset\HR_train\B" -lr:"C:\Users\solid\Desktop\Dataset\LR_train\B" -e:"C:\Users\solid\Desktop\cnn\imgExport.pgm"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-sv:"C:\Users\Usuario\Desktop\cnn\save" -learn -hr:"C:\Users\Usuario\Desktop\Dataset\HR_test\B" -lr:"C:\Users\Usuario\Desktop\Dataset\LR_test\B" -e:"C:\Users\Usuario\Desktop\cnn\imgExport.pgm"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
